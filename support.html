@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support — Flixy</title>
+<meta name="description" content="Support and frequently asked questions for Flixy, an IPTV and media player app for iPhone, iPad and Apple TV.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f8;
+    --border: #e3e3e8;
+    --text: #1b1b20;
+    --muted: #61616b;
+    --accent: #6d4aff;
+    --accent-soft: rgba(109, 74, 255, 0.09);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101014;
+      --surface: #1a1a21;
+      --border: #2c2c36;
+      --text: #ececf1;
+      --muted: #9a9aa6;
+      --accent: #9d86ff;
+      --accent-soft: rgba(157, 134, 255, 0.12);
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0 20px calc(64px + env(safe-area-inset-bottom, 0px));
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header {
+    padding: calc(56px + env(safe-area-inset-top, 0px)) 0 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 36px;
+  }
+  .brand {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 5px 11px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 10px; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 1.15rem;
+    margin: 42px 0 12px;
+    letter-spacing: -0.01em;
+    padding-top: 4px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 { font-size: 1rem; margin: 26px 0 6px; letter-spacing: -0.005em; }
+  p, li { color: var(--text); }
+  .updated { color: var(--muted); font-size: 0.925rem; margin: 0; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 12px;
+  }
+  .summary p { margin: 0; }
+  .summary p + p { margin-top: 10px; }
+  ul, ol { padding-left: 22px; margin: 12px 0; }
+  li { margin: 7px 0; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover { border-bottom-color: currentColor; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.875em;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 1px 5px;
+    word-break: break-word;
+  }
+  strong { font-weight: 650; }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--muted); }
+  @media (max-width: 480px) {
+    h1 { font-size: 1.6rem; }
+    header { padding-top: calc(36px + env(safe-area-inset-top, 0px)); }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <span class="brand">Flixy</span>
+  <h1>Support</h1>
+  <p class="updated">Last updated: 20 September 2026</p>
+</header>
+
+<div class="summary">
+  <p><strong>Need help?</strong> Email
+  <a href="mailto:clippingit34@gmail.com">clippingit34@gmail.com</a> and we
+  normally reply within 2&ndash;3 working days.</p>
+  <p>Flixy is made by one independent developer. There is no phone line and no
+  live chat &mdash; email is the only support channel, and it is read by a human.</p>
+</div>
+
+<h2>Before you write in</h2>
+<p>Flixy is a player, not a content service. It ships completely empty and plays
+whatever source you point it at &mdash; an M3U/M3U8 playlist, an Xtream Codes
+account, or your own Plex server. Most problems turn out to be with the source
+rather than with the app, so it is worth checking the FAQ below first.</p>
+<p><strong>We cannot help you find, buy or fix an IPTV subscription.</strong> We
+do not sell, host, curate or recommend any content, and we have no relationship
+with any provider. Questions of that kind will not get a useful answer.</p>
+
+<h2>Getting started</h2>
+<ol>
+  <li>Open Flixy and go to <strong>Settings &rarr; Playlists &rarr; Add playlist</strong>.</li>
+  <li>Choose your source type:
+    <ul>
+      <li><strong>M3U / M3U8</strong> &mdash; paste the full playlist URL, or import a local file.</li>
+      <li><strong>Xtream Codes</strong> &mdash; enter the server address, username and password.</li>
+      <li><strong>Plex</strong> &mdash; sign in to your own Plex server and pick the libraries you want.</li>
+    </ul>
+  </li>
+  <li>Wait for the first load to finish. A large playlist can take a minute or
+      two the first time while channels, artwork and the TV guide are parsed.</li>
+  <li>Optionally turn on <strong>Settings &rarr; Sync &rarr; iCloud sync</strong>
+      to carry your playlists, favourites and progress across your devices.</li>
+</ol>
+
+<h2>Frequently asked questions</h2>
+
+<h3>My playlist won&rsquo;t load</h3>
+<ul>
+  <li>Open the URL in Safari on the same device. If Safari cannot reach it
+      either, the problem is the source or your network, not Flixy.</li>
+  <li>Check the address is complete and uses <code>http://</code> or
+      <code>https://</code>, with no stray spaces from copy-and-paste.</li>
+  <li>Re-check the username and password for Xtream accounts &mdash; they are
+      case-sensitive.</li>
+  <li>Some providers limit how many devices or connections can be active at
+      once. Close the playlist on your other devices and try again.</li>
+  <li>If you are on a VPN or a restrictive network, try switching it off or
+      moving to another network.</li>
+  <li>Still stuck? <strong>Settings &rarr; Playlists</strong> &rarr; remove the
+      playlist and add it again.</li>
+</ul>
+
+<h3>A channel buffers, stutters or won&rsquo;t play</h3>
+<ul>
+  <li>Try another channel. If only one channel is affected, that stream is down
+      at the provider&rsquo;s end.</li>
+  <li>Test your connection speed on the same device. Live streams need a steady
+      connection, not just a fast one &mdash; Wi-Fi congestion is a common cause.</li>
+  <li>On Apple TV, a wired Ethernet connection is noticeably more reliable than
+      Wi-Fi for live TV.</li>
+  <li>Some streams use formats Apple&rsquo;s player does not support. If a
+      channel never plays anywhere while others are fine, it is likely the
+      stream&rsquo;s codec or container.</li>
+</ul>
+
+<h3>The TV guide (EPG) is empty or wrong</h3>
+<ul>
+  <li>The guide comes from your provider, not from us. If they supply no EPG
+      data, or supply it for different channel IDs, the guide will be empty or
+      mismatched.</li>
+  <li>Give the first import time to finish &mdash; large EPG files take a while.</li>
+  <li>Try <strong>Settings &rarr; Storage</strong> &rarr; clear the guide cache,
+      then reload the playlist.</li>
+</ul>
+
+<h3>Artwork, descriptions or cast are missing</h3>
+<p>Artwork and metadata are matched against The Movie Database (TMDB) using the
+title text in your playlist. If a title is spelled unusually, abbreviated or
+padded with provider prefixes, there may be nothing to match. Cleaning up the
+names on the provider&rsquo;s side generally fixes it.</p>
+
+<h3>&ldquo;Skip Intro&rdquo; or &ldquo;Next Episode&rdquo; never appears</h3>
+<p>These rely on timestamps from TheIntroDB for a matched title. If the episode
+is not in that database, or the title could not be matched, the buttons simply
+will not show. Nothing is broken.</p>
+
+<h3>My Plex server doesn&rsquo;t show up</h3>
+<ul>
+  <li>Confirm the server is online and reachable from the Plex app on the same
+      device.</li>
+  <li>Remote access must be enabled on the Plex server for connections from
+      outside your home network.</li>
+  <li>Sign out and back in under <strong>Settings &rarr; Playlists</strong> to
+      refresh the access token.</li>
+</ul>
+
+<h3>I forgot my parental-control PIN</h3>
+<p>The PIN is stored only on your device and we have no way to recover or reset
+it remotely. Deleting and reinstalling the app clears it, along with the rest of
+the local data. If iCloud sync is on, turn it off before reinstalling, otherwise
+the old settings can sync back.</p>
+
+<h3>iCloud sync isn&rsquo;t working</h3>
+<ul>
+  <li>Both devices must be signed in to the <em>same</em> Apple Account with
+      iCloud Drive enabled.</li>
+  <li>Turn <strong>Settings &rarr; Sync &rarr; iCloud sync</strong> on for each
+      device you want included.</li>
+  <li>Sync is not instant. Give it a minute, and make sure the app has been
+      opened on the second device.</li>
+</ul>
+
+<h3>How do I free up space?</h3>
+<p>Go to <strong>Settings &rarr; Storage</strong> to see what Flixy is using and
+clear the playlist, guide, artwork and metadata caches. Downloads and recordings
+are removed from their own sections. Deleting the app removes everything.</p>
+
+<h3>Do you offer refunds?</h3>
+<p>All purchases go through Apple, so refunds are handled by Apple, not by us.
+Use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+<h3>Can you add a feature?</h3>
+<p>Requests are welcome &mdash; email them in. We read every one, though we
+can&rsquo;t promise a timeline, and anything that would involve providing or
+indexing content is out of scope.</p>
+
+<h2>Reporting a bug</h2>
+<p>To get to the bottom of a problem quickly, please include:</p>
+<ul>
+  <li>your device and OS version (for example &ldquo;iPhone 15, iOS 18.2&rdquo;
+      or &ldquo;Apple TV 4K, tvOS 18.2&rdquo;);</li>
+  <li>the Flixy version number, shown at the bottom of <strong>Settings</strong>;</li>
+  <li>the source type you are using (M3U, Xtream Codes or Plex);</li>
+  <li>what you did, what you expected, and what happened instead;</li>
+  <li>a screenshot or screen recording if the problem is visual.</li>
+</ul>
+<p><strong>Please do not send us your playlist URL, username, password or Plex
+token.</strong> We never need them, and we would rather not receive them.</p>
+
+<h2>Privacy</h2>
+<p>Flixy collects nothing and we run no servers. The full details are in the
+<a href="./index.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p><strong>Email:</strong>
+<a href="mailto:clippingit34@gmail.com">clippingit34@gmail.com</a><br>
+<span class="updated">Typical response time: 2&ndash;3 working days.</span></p>
+
+<footer>
+  &copy; 2026 Flixy &middot; Mounir Bounab &middot;
+  <a href="./index.html">Privacy policy</a>
+</footer>
+
+</main>
+</body>
+</html>
